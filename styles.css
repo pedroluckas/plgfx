@@ -1,0 +1,26 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1c1c1c; /* Cor de fundo semelhante à Betano */
+    color: #fff; /* Cor do texto branca para contraste */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Altura mínima da tela */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #FF6600; /* Cor do rodapé em laranja */
+    color: #000; /* Texto preto no rodapé */
+    margin-top: auto; /* Mover o rodapé para baixo */
+}
+
+/* Estilizando os botões para terem a mesma cor */
+.btn {
+    background-color: #FF6600; /* Laranja exato da Betano */
+    border: none; /* Remove a borda padrão */
+}
+
+.btn:hover {
+    background-color: #D69F00; /* Tom mais escuro para hover */
+}
